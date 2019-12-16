@@ -366,7 +366,7 @@ var session = require('express-session');
 var React = require('react');
 var ReactDOMServer = require('react-dom/server');
 var Component = require('./Component.jsx');
-var abEmitter = require('react-ab-test/lib/emitter');
+var abEmitter = require('@marvelapp/react-ab-test/lib/emitter');
 
 var app = express();
 
